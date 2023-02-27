@@ -1,0 +1,88 @@
+/*1 Blok*/
+.AboutUsblok1{
+	height: 100%;
+}
+.AboutUsblok1Image{
+	height: 400px;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.AboutUsblok1 .container-fluid .row{
+	background-color: #E3E3E3;
+	padding-left:15%;
+	padding-right: 15%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.AboutUsblok1 .row h4{
+	font-weight: bold;
+}
+
+.AboutUsblok1 .row p{
+	font-size: 1.2em;
+}
+
+/*2 Blok*/
+.AboutUsblok2{
+	height: 100%;
+}
+
+.AboutUsblok2 .container-fluid{
+
+	background-color: #fff;
+
+}
+.AboutUsblok2Text{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.AboutUsblok2Text h1{
+	font-weight: bold;
+}
+
+@media(max-width: 600px){
+	.AboutUsblok2Text{
+		width: 100%;
+	}
+	.AboutUsblok1Image{
+		height: 350px;
+	}
+}
+
+
+/*3 Blok*/
+
+
+.AboutUsblok3{
+	height: 100%;
+}
+
+.AboutUsblok3Image{
+	height: 100%;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.AboutUsblok3Text{
+	color: #fff;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+@media(max-width: 600px){
+	.AboutUsblok3Text{
+		width: 100%;
+	}
+}
